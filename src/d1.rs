@@ -8,8 +8,6 @@ pub fn solve(data: &str) {
         fuel_req += calculate_fuel_requirement(mass);
     });
 
-    //fuel_req = calculate_fuel_requirement(100756.0);
-
     println!("Part 1: {}", fuel_req);
 
     data.lines().for_each(|s| {
